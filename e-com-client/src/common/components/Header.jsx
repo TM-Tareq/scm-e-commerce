@@ -31,7 +31,7 @@ const Header = () => {
     return (
         <header className="bg-white shadow-md sticky top-0 z-50">
             {/* Row-1: Welcome Message + Dark/Light Mode + Login/Profile */}
-            <div className="bg-gray-100 py-2">
+            <div className="bg-gray-100 py-1.5">
                 <div className="max-w-7xl mx-auto px-4 flex items-center justify-between text-sm">
                     <p className="text-gray-700">
                         Welcome to MyShop! Enjoy free shipping on orders over $100
@@ -74,7 +74,7 @@ const Header = () => {
             </div>
 
             {/* Row-2: Logo + Search + Order Tracking + Icons */}
-            <div className="py-4">
+            <div className="py-3">
                 <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
                     {/* Logo - হোমে ক্লিক করলে সার্চ ক্লিয়ার */}
                     <Link 
@@ -117,7 +117,7 @@ const Header = () => {
 
             {/* Row-3: Navigation Menu */}
             <nav className="bg-blue-600 text-white">
-                <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+                <div className="max-w-7xl mx-auto px-4 py-2.5 flex items-center justify-between">
                     {/* Shop Categories Dropdown */}
                     <div className="relative">
                         <button
